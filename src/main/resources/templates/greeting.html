@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Greeting started: Serving Web Content</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+
+<p th:text="'Hello, ' + ${name} + '!'" />
+<p>
+    Bellow the Logo of JetBrains will be displayed
+</p>
+<img th:src="@{/images/JetbrainLogo.png}" width="400" height="400" />
+
+</body>
+</html>
